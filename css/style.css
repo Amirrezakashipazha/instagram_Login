@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0 25%;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec-main {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sec-main .sec-img {
+  margin: 0 100px 50px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.sec-main .sec-img .img-1 {
+  width: 17vw;
+  height: 70vh;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+
+.sec-main .sec-img .img-2 {
+  width: 17vw;
+  height: 70vh;
+  position: absolute;
+  top: 40px;
+  left: 5vw;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+
+.sec-main .sec-login {
+  width: 100%;
+  height: 100%;
+  margin-top: 5vh;
+}
+
+.sec-main .sec-login .img-insta {
+  width: 80%;
+  height: 70%;
+}
+
+.sec-main .sec-login img {
+  width: 140px;
+  height: 40px;
+  margin: 30px 0;
+}
+
+.sec-main .sec-login .f-1 {
+  border: 1px solid #bbbaba;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-main .sec-login .f-1 input {
+  margin: 3px 0;
+  height: 20px;
+  width: 85%;
+  border: 1px solid #bbbaba;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.sec-main .sec-login .f-1 button {
+  border: none;
+  border-radius: 4px;
+  width: 92.5%;
+  height: 25px;
+  margin-top: 10px;
+  background-color: #0095f6;
+  opacity: 0.4;
+  color: #fff;
+}
+
+.sec-main .sec-login .f-1 a {
+  color: #00376b;
+  margin: 20px 0;
+}
+
+.sec-main .sec-login .f-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #bbbaba;
+  margin-top: 8px;
+  background-color: #fff;
+}
+
+.sec-main .sec-login .f-2 a {
+  color: #0095f6;
+}
+
+.sec-main .sec-login .f-2 .d-f-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5% 0;
+}
+
+.sec-main .sec-login .app {
+  text-align: center;
+}
+
+.sec-main .sec-login .app p {
+  margin-top: 30px;
+}
+
+.sec-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-footer a {
+  color: #8e8e8e;
+  margin: 0 5px;
+}
+
+@media (max-width: 992px) {
+  .sec-img {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
